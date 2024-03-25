@@ -1,0 +1,77 @@
+[
+  {
+  "urls": ["https://qauto2.forstudy.space/api/", "https://qauto.forstudy.space/api/"],
+  "data": [
+    {
+      "name": "Igogo",
+      "lastName": "Bigg",
+      "email": "kesdr4@prere.com",
+      "password": "Pass123!234",
+      "repeatPassword": "Pass123!234"
+    },
+    {
+      "name": "",
+      "lastName": "Follis",
+      "email": "jsuffe1@umich.edu",
+      "password": "nQ7k}Vbq",
+      "repeatPassword": "nQ7k}Vbq"
+    },
+    {
+      "name": "L",
+      "lastName": "Follis",
+      "email": "jsuffe1@umich.edu",
+      "password": "nQ7k}Vbq",
+      "repeatPassword": "nQ7k}Vbq"
+    },
+    {
+      "name": "Follis",
+      "lastName": "",
+      "email": "dfollis2@go.com",
+      "password": "sI3O#51$JDFfR5o",
+      "repeatPassword": "sI3O#51$JDFfR5o"
+    },
+    {
+      "name": "Follis",
+      "lastName": "Lazaaraayaaaiaqwertyrieowieyryeuwioroutyryerr",
+      "email": "dfollis2@gogi.com",
+      "password": "sI3O#51$JDFfR5o",
+      "repeatPassword": "sI3O#51$JDFfR5o"
+    },
+    {
+      "name": "Lloyd",
+      "lastName": "Bigg",
+      "email": "",
+      "password": "Pass123!234",
+      "repeatPassword": "Pass123!234"
+    },
+    {
+      "name": "Lloyd",
+      "lastName": "Bigg",
+      "email": "lbigg0exblog.com",
+      "password": "Pass123!234",
+      "repeatPassword": "Pass123!234"
+    },
+    {
+      "name": "Lloyd",
+      "lastName": "Bigg",
+      "email": "lbigg0@exblog.com",
+      "password": "",
+      "repeatPassword": "Pass123!234"
+    },
+    {
+      "name": "Lloyd",
+      "lastName": "Bigg",
+      "email": "lbigg0@exblog.com",
+      "password": "yaochentupoiineponimaushopisat",
+      "repeatPassword": "yaochentupoiineponimaushopisat"
+    },
+    {
+      "name": "Last",
+      "lastName": "Man",
+      "email": "kokoch0@exblog.com",
+      "password": "Pass123!234",
+      "repeatPassword": "Pass123!23"
+    }
+  ]
+ }
+]
