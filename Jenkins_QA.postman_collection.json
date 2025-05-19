@@ -51,7 +51,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"name\":\"John\",\r\n  \"lastName\":\"Dou\",\r\n  \"email\":\"{{email}}\",\r\n  \"password\":\"{{password}}\",\r\n  \"repeatPassword\":\"{{password}}\"\r\n}",
+					"raw": "{\r\n  \"name\":\"John\",\r\n  \"lastName\":\"\",\r\n  \"email\":\"{{email}}\",\r\n  \"password\":\"{{password}}\",\r\n  \"repeatPassword\":\"{{password}}\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
