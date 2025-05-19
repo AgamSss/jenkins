@@ -1,0 +1,167 @@
+{
+	"info": {
+		"_postman_id": "a682dbc8-36b7-43d4-9a7e-30c0cb75247f",
+		"name": "Jenkins",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6654743"
+	},
+	"item": [
+		{
+			"name": "SignUp",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"var randomEmail = \"qweerty\" + Math.floor(Math.random() * 100000) + \"@mail.com\";\r",
+							"pm.collectionVariables.set(\"email\", randomEmail)\r",
+							"//pm.collectionVariables.set(\"email\", pm.iterationData.get('email'));\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"var jsonData = pm.response.json();\r",
+							"pm.test(\"Check user creation\", function () {   \r",
+							"    pm.expect(jsonData.status).to.eql(\"ok\");    \r",
+							"    pm.collectionVariables.set(\"userId\", jsonData.data.userId);\r",
+							"});\r",
+							"\r",
+							"\r",
+							""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"name\":\"John\",\r\n  \"lastName\":\"Dou\",\r\n  \"email\":\"{{email}}\",\r\n  \"password\":\"{{password}}\",\r\n  \"repeatPassword\":\"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/auth/signup",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"auth",
+						"signup"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "https://qauto.forstudy.space/api",
+			"type": "string"
+		},
+		{
+			"key": "password",
+			"value": "Test1234",
+			"type": "string"
+		},
+		{
+			"key": "email",
+			"value": ""
+		},
+		{
+			"key": "userId",
+			"value": ""
+		},
+		{
+			"key": "newPassword",
+			"value": ""
+		},
+		{
+			"key": "mileage",
+			"value": ""
+		},
+		{
+			"key": "carId",
+			"value": ""
+		},
+		{
+			"key": "audiId",
+			"value": ""
+		},
+		{
+			"key": "bmwId",
+			"value": ""
+		},
+		{
+			"key": "audiTT_Id",
+			"value": ""
+		},
+		{
+			"key": "bmw3Id",
+			"value": ""
+		},
+		{
+			"key": "fullDate",
+			"value": ""
+		},
+		{
+			"key": "newMilage",
+			"value": ""
+		},
+		{
+			"key": "expensesId",
+			"value": ""
+		},
+		{
+			"key": "audiBrandId",
+			"value": ""
+		},
+		{
+			"key": "carBrandId",
+			"value": ""
+		},
+		{
+			"key": "body",
+			"value": ""
+		}
+	]
+}
