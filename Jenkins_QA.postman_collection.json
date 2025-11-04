@@ -14,8 +14,8 @@
 					"script": {
 						"exec": [
 							"var randomEmail = \"qweerty\" + Math.floor(Math.random() * 100000) + \"@mail.com\";\r",
-							"pm.collectionVariables.set(\"email\", randomEmail)\r",
-							"//pm.collectionVariables.set(\"email\", pm.iterationData.get('email'));\r",
+							"//pm.collectionVariables.set(\"email\", randomEmail)\r",
+							"pm.collectionVariables.set(\"email\", pm.iterationData.get('email'));\r",
 							"\r",
 							"\r",
 							"\r",
